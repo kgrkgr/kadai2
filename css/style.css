@@ -1,0 +1,118 @@
+.logo {
+  width: 80px;
+  height: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  color: gray;
+}
+
+.header-navlist {
+  display: flex;
+  font-weight: 200;
+  list-style: none;
+}
+
+.header-nav-item:not(:last-child) {
+  padding-right: 30px;
+}
+
+.ttl {
+  font-family: 'Caveat', cursive;
+  font-size: 70px;
+  color: rgb(247, 77, 128);
+}
+
+.ttl-span {
+  color: rgb(70, 151, 175);
+}
+
+.sub {
+  color: rgb(247, 77, 128);
+  font-weight: bold;
+}
+
+.sub2 {
+  color: gray;
+  font-size: 13px;
+}
+
+.sub-span {
+  color: rgb(70, 151, 175);
+  font-weight: bold;
+}
+
+
+.top {
+  position: relative;
+}
+
+.top-img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.word {
+  position: absolute;
+  top: 7%;
+  left: 25%;
+}
+
+.news {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  color: rgb(247, 77, 128);
+}
+
+.new-info {
+  font-size: 25px;
+  color: gray;
+  border-bottom: solid 2px;
+}
+
+.news-list {
+  list-style: none;
+  border-bottom: solid 1px;
+  color: grey;
+  line-height: 40px;
+}
+
+.new {
+  width: 50%;
+  border-bottom: solid 2px;
+}
+
+.news-list-span {
+  padding: 3px 15px;
+  color: white;
+  background: rgb(163, 34, 72);
+  border-radius: 30px;
+  margin: 0 10px;
+}
+
+.about {
+  background: grey;
+  padding: 60px 0;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-img {
+  width: 40%;
+}
