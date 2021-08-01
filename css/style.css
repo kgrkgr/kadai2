@@ -203,13 +203,19 @@ a {
 }
 
 .blog {
+  background: rgb(236, 236, 236);
+  padding: 5% 5%;
+  margin-top: 100px;
+  color: gray;
+}
+
+.blog-contents {
   display: flex;
   justify-content: space-between;
-  background: gray;
 }
 
 .blog-card {
-  width: 30%;
+  width: 25%;
   background: wheat;
   justify-content: space-between;
   border-radius: 30px;
@@ -225,7 +231,7 @@ a {
 }
 
 .blog-ttl {
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 30px;
   font-weight: 400;
 }
@@ -252,4 +258,13 @@ a {
 .blog-tag {
   display: inline-block;
   margin-left: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  color: rgb(184, 100, 125);
+  text-align: center;
+  margin: 70px auto;
+  border-radius: 30px;
 }
