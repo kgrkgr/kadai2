@@ -325,9 +325,17 @@ a {
 .info {
   display: flex;
   position: absolute;
+  
+}
+
+info-img {
+  width:100%;
 }
 
 .info-ttl {
   position: relative;
-  top: 50%;
+  top: -50%;
+  left: 40%;
+  color: white;
+  font-size: 30px;
 }
