@@ -352,4 +352,41 @@ a {
   background-color: palevioletred;
   width: 2px;
   height: 30px;
+  margin: 10px auto;
+}
+
+.contact-btn {
+  position: relative;
+  background-color: rgb(241, 50, 114);
+  width: 150px;
+  display: block;
+  padding: 18px 20px;
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 20px auto;
+  box-shadow: 0px 5px rgb(150, 14, 59);
+}
+
+.contact-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background: url(../img/img/mailicon.svg)no-repeat;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
+  padding-right: 10px;
+}
+
+footer {
+  height: 50px;
+  background: rgb(216, 216, 216);
+  text-align: center;
+  margin: 50px auto;
+  padding-top: 40px;
 }
