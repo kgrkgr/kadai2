@@ -280,7 +280,20 @@ a {
   margin: 0 auto;
 }
 
-.table th {
-  border: solid 1px grey;
+.table th,td {
+  border: solid 1px;
   background: rgb(240, 240, 240);
+  text-align: left;
+  padding: 8px 15px;
+  color: grey;
+}
+
+.company {
+  width: 90%;
+  margin: 100px auto;
+}
+
+.company-ttl {
+  text-align: left;
+  margin-left: 300px;
 }
