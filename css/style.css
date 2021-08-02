@@ -326,11 +326,11 @@ a {
   display: flex;  
 }
 
-.info-img1{
+.recruit{
   width:50%;
 }
 
-.info-img2{
+.intervew{
   width: 50%;
 }
 
@@ -340,4 +340,16 @@ a {
   left: 40%;
   color: white;
   font-size: 30px;
+}
+
+.contact-ttl {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact-form {
+  background-color: palevioletred;
+  width: 2px;
+  height: 30px;
 }
