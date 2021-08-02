@@ -323,13 +323,15 @@ a {
 }
 
 .info {
-  display: flex;
-  position: absolute;
-  
+  display: flex;  
 }
 
-info-img {
-  width:100%;
+.info-img1{
+  width:50%;
+}
+
+.info-img2{
+  width: 50%;
 }
 
 .info-ttl {
