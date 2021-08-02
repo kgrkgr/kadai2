@@ -1,6 +1,6 @@
 .logo {
   width: 80px;
-  height: 23px;
+  height: 20px;
 }
 
 a {
@@ -216,13 +216,13 @@ a {
 
 .blog {
   background: rgb(236, 236, 236);
-  padding-top: 2%;
+  padding: 5% 10%;
   margin-top: 100px;
   color: gray;
 }
 
 .blog-top {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .blog-contents {
@@ -231,9 +231,9 @@ a {
 }
 
 .blog-card {
-  width: 25%;
+  width: 30%;
   background: white;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 30px;
 }
 
@@ -243,7 +243,7 @@ a {
 }
 
 .blog-item {
-  padding: 15px 25px;
+  padding: 10px 25px;
 }
 
 .blog-ttl {
@@ -323,10 +323,19 @@ a {
 }
 
 .info {
-  display: flex;  
+  display: flex;
+  width: 90%;
 }
 
-.recruit{
+.info-img1 {
+  width: 50%;
+}
+
+.info-img2 {
+  width: 50%;
+}
+
+.recruit {
   width:50%;
 }
 
@@ -387,6 +396,6 @@ footer {
   height: 50px;
   background: rgb(216, 216, 216);
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 0;
   padding-top: 40px;
 }
