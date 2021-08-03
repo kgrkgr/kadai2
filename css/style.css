@@ -329,11 +329,14 @@ a {
 
 .info-img1 {
   background-image: url(../img/img/recruit.png);
-  background-size: 300px 100px;
+  background-repeat: no-repeat;
+  height: 600px;
 }
 
 .info-img2 {
   background-image: url(../img/img/interview.png);
+  background-repeat: no-repeat;
+  height: 600px;
 }
 
 .recruit {
@@ -345,11 +348,12 @@ a {
 }
 
 .info-ttl {
-  position: relative;
-  top: -50%;
-  left: 40%;
   color: white;
   font-size: 30px;
+}
+
+.contact {
+  margin-top: 50px;
 }
 
 .contact-ttl {
